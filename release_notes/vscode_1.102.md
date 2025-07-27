@@ -386,7 +386,7 @@ Once activated, the cursor changes to a panning icon and moving the mouse up or 
 
 <video src="images/1_102/middle-scroll.mp4" title="Screenrecording of the editor scrolling when the middle mouse button is clicked." autoplay loop controls muted></video>
 
-**Known Conflicts**
+#### **Known Conflicts**
 
 Enabling this feature might interfere with other actions tied to the middle mouse button. For example, if you have column selection (`setting(editor.columnSelection)`) enabled, holding down the middle mouse button selects text. Similarly, on Linux, selection clipboard (`setting(editor.selectionClipboard)`) pastes content from your clipboard when the middle mouse button is clicked.
 
