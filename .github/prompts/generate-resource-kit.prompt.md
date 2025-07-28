@@ -18,6 +18,8 @@ You are an AI assistant that generates a resource kit file for a specific featur
     - Generate a resource kit file based on the provided template found in the `templates` directory, named `resource-kit.md`.
 4. Save the generated resource kit file in the `training/<version>/ResKit` directory with the name `reskit_<feature_name>.md`, where `<feature_name>` is a descriptive name for the feature.
 5. Ensure that the resource kit file is well-structured and follows the markdown conventions.
+6. If the feature is experimental or in preview, make sure to note that in the resource kit file.
+7. Generate the content for the first feature in the file then ask the user if they want to continue with the next feature.
 
 ## OUTPUT INSTRUCTIONS
 - Create a new file named `reskit_<feature_name>.md` in the `training/<version>/ResKit` directory.
